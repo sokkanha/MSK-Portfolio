@@ -3,8 +3,8 @@ import { NuxtLink } from '#components';
 
 </script>
 <template>
-    <div class="text-white">
-        <nav class="flex py-2 justify-around items-center">
+    <div class="text-white border-t-2 border-[#A259FF] z-10">
+        <nav class="flex py-2 justify-around items-center shadow-2xl">
             <div class="left-nav font-bold">
                 <h1 class="text-2xl">msk.</h1>
             </div>
@@ -17,7 +17,7 @@ import { NuxtLink } from '#components';
                         <NuxtLink to="/about-me"> About me</NuxtLink>
                     </li>
                     <li class="hover:underline hover:underline-offset-4 hover:text-[#A259FF]">
-                        <NuxtLink to="/projects-page">Project</NuxtLink>
+                        <NuxtLink to="/projects-page">Projects</NuxtLink>
                     </li>
                     <li class="hover:underline hover:underline-offset-4 hover:text-[#A259FF]">
                         <NuxtLink to="/">home</NuxtLink>

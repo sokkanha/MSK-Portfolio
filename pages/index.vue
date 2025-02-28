@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="w-full h-[70vh] flex items-center">
         <div class="fixed left-1/6 top-1/3 -translate-y-1/2 flex flex-col items-center space-y-4">
             <div class="w-2 h-36 bg-white border-l border-white "></div>
 
@@ -40,7 +40,7 @@
             </div>
             <div class="quote flex flex-col gap-2.5  text-gray-300">
                 <p class="border px-1 py-3 text-center">" In the world of technology, we are only limited by our imagination. "</p>
-                <span class="border p-2 w-fit self-end">Unknown</span>
+                <span class="border p-2 w-fit self-end">__Unknown</span>
             </div>
         </div>
     </section>
