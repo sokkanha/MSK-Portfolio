@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-7 text-white">
-        <h1 class="header-text font-bold text-xl">
+        <h1 class="header-text font-bold text-xl self-end">
             Personal Projects__
         </h1>
 

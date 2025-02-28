@@ -4,7 +4,7 @@ import { NuxtLink } from '#components';
 </script>
 <template>
     <div class="text-white border-t-2 border-[#A259FF] z-10">
-        <nav class="flex py-2 justify-around items-center shadow-2xl">
+        <nav class="flex py-2 justify-between px-5 items-center shadow-2xl">
             <div class="left-nav font-bold">
                 <h1 class="text-2xl">msk.</h1>
             </div>

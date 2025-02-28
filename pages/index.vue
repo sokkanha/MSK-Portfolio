@@ -1,6 +1,6 @@
 <template>
     <section class="w-full h-[70vh] flex items-center">
-        <div class="fixed left-1/6 top-1/3 -translate-y-1/2 flex flex-col items-center space-y-4">
+        <div class="fixed left-1.5 top-1/3 -translate-y-1/2 flex flex-col items-center space-y-4">
             <div class="w-2 h-36 bg-white border-l border-white "></div>
 
             <!-- GitHub Icon -->

@@ -3,7 +3,7 @@
     <div class="sticky top-0">
       <HeaderNav/>
     </div>
-    <div class="w-[50%] m-auto ">
+    <div class="w-[80%] m-auto ">
       <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>
