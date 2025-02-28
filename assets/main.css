@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+:root {
+    --primary-color:#282c33;
+    --secondary-color: #C778DD;
+}
+
+* {
+    font-family: "Manrope", serif;
+    background-color: var(--primary-color);
+}
