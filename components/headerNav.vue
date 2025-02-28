@@ -1,6 +1,12 @@
-<script>
+<script lang="ts" setup>
 import { NuxtLink } from '#components';
-
+const menuItems = [
+        { label: 'Contact', link: '/contacts' },
+        { label: 'About me', link: '/about-me' },
+        { label: 'Projects', link: '/projects-page' },
+        { label: 'Home', link: '/' }
+]
+const route = useRoute();
 </script>
 <template>
     <div class="text-white border-t-2 border-[#A259FF] z-10">
@@ -10,17 +16,14 @@ import { NuxtLink } from '#components';
             </div>
             <div class="right-nav">
                 <ul class="flex gap-6 ">
-                    <li class="hover:underline hover:underline-offset-4 hover:text-[#A259FF]">
-                        <NuxtLink to="/contacts">Contact</NuxtLink>
-                    </li>
-                    <li class="hover:underline hover:underline-offset-4 hover:text-[#A259FF]">
-                        <NuxtLink to="/about-me"> About me</NuxtLink>
-                    </li>
-                    <li class="hover:underline hover:underline-offset-4 hover:text-[#A259FF]">
-                        <NuxtLink to="/projects-page">Projects</NuxtLink>
-                    </li>
-                    <li class="hover:underline hover:underline-offset-4 hover:text-[#A259FF]">
-                        <NuxtLink to="/">home</NuxtLink>
+                    <li 
+                    v-for="(item, index) in menuItems" :key="index" 
+                    class=" hover:text-[#A259FF]"
+                    :class="[
+                    route.path === item.link ? 'text-[#A259FF] font-semibold underline underline-offset-4' : 'hover:text-[#A259FF]'
+                    ]"
+                    >
+                        <NuxtLink :to="item.link">{{ item.label }}</NuxtLink>
                     </li>
                 </ul>
             </div>
