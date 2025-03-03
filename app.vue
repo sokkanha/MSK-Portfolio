@@ -9,6 +9,7 @@
       </NuxtLayout>
     </div>
   </div>
+  <FooterPage/>
 </template>
 
 <script setup>
