@@ -9,12 +9,11 @@
 
         <section class="flex flex-col gap-9">
             <div class="flex gap-3.5">
-                <img width="100px" height="100px" src="/public/images/image.png"/>
+                <img class="w-[100px] h-[100px]" src="/public/images/image.png"/>
                 <div>
                     <h1>MORN Sokkanha</h1>
-                    <p class="text-gray-400">I'm more than one in love for Front-End. My experience with interface design turn me one extremely criterious with
-                    alignments, margins, colors and a lot other resorces in CSS. Today I work with projects in a whole world. Codifiding in my
-                    home office, in a quiet interior of São Paulo, Brazil.
+                    <p class="text-gray-400">
+                        I am a passionate Computer Science student with a strong foundation in software development. Through my experience working on multiple projects, I have developed experience in Angular, Nuxt, TypeScript, and Tailwind CSS. I specialize in creating intuitive and visually appealing user interfaces, ensuring seamless user experiences, debugging efficiently, and integrating APIs to build dynamic and responsive web applications.
                     </p>
                 </div>
             </div>

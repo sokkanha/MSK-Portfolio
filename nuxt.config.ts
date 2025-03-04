@@ -8,6 +8,13 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, ".")
   },
+  app: {
+    head: {
+      link:[
+        {rel:'icon',type:'image/png' ,href: 'https://sourceai.dev/img/logo/logo-sm.png'}
+      ]
+    }
+  },
   vite: {
     plugins: [
       tailwindcss(),

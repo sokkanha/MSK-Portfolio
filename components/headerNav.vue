@@ -1,12 +1,13 @@
 <script lang="ts" setup>
 import { NuxtLink } from '#components';
+const route = useRoute();
+
 const menuItems = [
+        { label: 'Home', link: '/' },
         { label: 'Contact', link: '/contacts' },
         { label: 'About me', link: '/about-me' },
-        { label: 'Projects', link: '/projects-page' },
-        { label: 'Home', link: '/' }
+        { label: 'Projects', link: '/projects-page' }
 ]
-const route = useRoute();
 </script>
 <template>
     <div class="text-white border-t-2 border-[#A259FF] z-10">
