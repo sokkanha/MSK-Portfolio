@@ -28,7 +28,7 @@ onMounted(updateText);
 
 <template>
   <span class="text-white">
-    {{ displayText }}<span class="animate-blink">|</span>
+    {{ displayText }}<span class="md:animate-blink">|</span>
   </span>
 </template>
 

@@ -7,7 +7,7 @@
             Personal Projects__
         </h1>
 
-        <section class="grid grid-cols-2 gap-10 "> 
+        <section class="grid grid-cols-2 gap-10 max-sm:grid-cols-1 "> 
             <ProjectCard :dataItems="projectItems"/>
         </section>
     </div>

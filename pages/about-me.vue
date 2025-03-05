@@ -7,10 +7,10 @@
             About Me__
         </h1>
 
-        <section class="flex flex-col gap-9">
-            <div class="flex gap-3.5">
+        <section class="flex flex-col gap-9 ">
+            <div class="flex gap-3.5 max-md:flex-col">
                 <img class="w-[100px] h-[100px]" src="/public/images/image.png"/>
-                <div>
+                <div class="space-y-3">
                     <h1>MORN Sokkanha</h1>
                     <p class="text-gray-400">
                         I am a passionate Computer Science student with a strong foundation in software development. Through my experience working on multiple projects, I have developed experience in Angular, Nuxt, TypeScript, and Tailwind CSS. I specialize in creating intuitive and visually appealing user interfaces, ensuring seamless user experiences, debugging efficiently, and integrating APIs to build dynamic and responsive web applications.
@@ -23,9 +23,9 @@
                 <hr><br>
                 
                 <div class="space-y-4">
-                    <p>Hun Sen Koh chen High School ( Graduated 2020 )</p>
-                    <p>Royal University Of Phnom Penh ( 2020 - 2024 ) <br>
-                        <span class="text-gray-400">Bachelor's Degree of Computer Science</span>
+                    <p >Hun Sen Koh chen High School ( Graduated 2020 )</p>
+                    <p >Royal University Of Phnom Penh ( 2020 - 2024 ) <br>
+                        <span class="text-gray-400 ">Bachelor's Degree of Computer Science</span>
                     </p>
                 </div>
             </div>
@@ -46,7 +46,7 @@
             <div>
                 <h2>Skills</h2>
                 <hr><br>
-                <div class="flex gap-2">
+                <div class="flex gap-2 max-sm:grid max-sm:grid-cols-4">
                     <img src="../public/svgIcons/Javascript.svg" alt="">
                     <img src="../public/svgIcons/typescript-plain.svg" alt="">
                     <img src="../public/svgIcons/angular.svg" alt="">
