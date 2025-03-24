@@ -1,7 +1,8 @@
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
+## Preview 
+https://msk-portfolio-ten.vercel.app/
 ## Setup
 
 Make sure to install dependencies:
